@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading{
+            background-color: aqua; 
+            padding: 50px;   
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-evenly;
+            align-items: stretch;
+            flex: 1;
+            flex-direction: row;   
+        }
+        .head{
+            padding:10px;
+            background-color: crimson;
+            text-align: center;
+            }
+            .grid-layout{ 
+                background-color: blueviolet;
+                display: grid;
+                grid-template-columns: 1fr 2fr 1fr;
+                padding: 20px;
+                gap: 20px;
+                
+            }
+            .grid-items{
+                background-color: aqua;
+                text-align: center;
+                border: 2px solid red ;
+               
+
+            }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam possimus provident sunt dolore aspernatur culpa, commodi ad architecto libero. Error officia minima rerum qui blanditiis.</h1>
+    <div class="heading">
+        <div class="head">
+            <h1>lion</h1>
+        </div>
+
+        <div class="head">
+            <h1>tiger</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        <div class="head">
+            <h1>elephant</h1>
+         </div>
+          <div class="head">
+            <h1>lion</h1>
+        </div>
+
+        <div class="head">
+            <h1>tiger</h1>
+            </div>
+        <div class="head">
+            <h1>elephant</h1>
+         </div>
+ </div>
+         <h1 > grid items</h1>
+
+        <div class="grid-layout">
+            <div class="grid-items">
+                <h1>items1</h1>
+            </div>
+             
+            <div class="grid-items">
+                <h1>items2</h1>
+            </div>
+             
+            <div class="grid-items">
+                <h1>items3</h1>
+            </div>
+        </div> 
+       
+   
+</body>
+</html>
